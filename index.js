@@ -9,3 +9,7 @@ export const subtractArgs = (...args) => {
     for(const arg of args) sum = sum - arg;
     return subtract;
 }
+
+export const multiply = (n1, n2) => {
+    return n1*n2;
+}
